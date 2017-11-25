@@ -1,0 +1,22 @@
+.App {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.App__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(36, 196, 36);
+}
+.App_header_icon {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(../icons/lime.png) ;
+    background-size: cover;
+}
